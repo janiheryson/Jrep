@@ -1495,23 +1495,6 @@ int main() {
             }
 
 
-
-
-            /*Playlist* operator+(Playlist p1, Musica m){
-              Playlist *nova = new Playlist();
-
-              Musica c = *p1.lista->getHead();
-              nova->lista->setHead(c);
-
-              while(c.getProx() != NULL){
-                nova->inserirMusica(c.getMusica(), c.getArtista());
-                c = *c.getProx();
-              }
-              
-              return nova;
-            }*/
-
-
           }else if (op == 2){
 
           }else{
